@@ -19,8 +19,8 @@ This dashboard is useful to analyze in real time the CPU and memory consumption 
 Use cases:
 - Check in real time the memory and CPU consumption of your pods.
 - Detect pods close to their limit of resources (risk of being killed / throttled)
-- Detect pods without limit (they will show same pct in relation with the limit)
-- Check resources usage of pods of a given host
+- Detect pods without limit (they will show same pct in relation with the limit than with the node)
+- Check resources usage of pods running in a given host.
 - Other filtering options: namespaces, daemonsets, statefulsets, deployments and pod name (to select specific pods)
 
 How to install:
